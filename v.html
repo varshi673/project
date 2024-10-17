@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluation Assignment</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS for rotation */
+        .rotate-360 {
+            transition: transform 0.6s ease;
+        }
+        .rotate-360:hover {
+            transform: rotate(360deg);
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen bg-gray-100">
+    <div id="assignment" class="bg-white rounded-lg shadow-lg p-6 m-4 max-w-md mx-auto">
+        <div class="flex items-center">
+            <img src="your-icon-url.png" alt="icon" class="w-10 h-10 mr-4">
+            <h1 class="text-xl font-bold">Evaluation Assignment</h1>
+        </div>
+        <p class="mt-4">Thank you for taking out the time to read the evaluation assignment. Your job is to write CSS that looks like the image above.</p>
+        <div id="hover-box" class="mt-4 bg-blue-500 text-white p-4 rounded-lg rotate-360">
+            Hover over this box to see the animation!
+        </div>
+    </div>
+</body>
+</html>
